@@ -1,0 +1,10 @@
+version: "3"
+services:
+  node:
+    build: .
+    container_name: 'react'
+    tty: true
+    volumes:
+      - ./react-sample:/usr/src/app
+    ports:
+      - "3000:3000"
