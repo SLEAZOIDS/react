@@ -8,3 +8,11 @@ services:
       - ./react-sample:/usr/src/app
     ports:
       - "3000:3000"
+  storybook:
+    build: ./react-sample/.storybook/
+    container_name: 'storybook'
+    tty: true
+    volumes:
+      - ./react-sample:/usr/src/app
+    ports:
+      - "6006:6006"
