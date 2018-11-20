@@ -11,3 +11,16 @@ $ docker-compose run --rm node yarn
 ```
 docker-compose up
 ```
+
+# ブラウザアクセス
+
+### react
+```
+http://localhost:9000
+```
+
+### storybook
+
+```
+http://localhost:6006
+```
